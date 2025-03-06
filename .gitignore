@@ -1,0 +1,53 @@
+# Entorno virtual
+venv/
+env/
+*.venv/
+*.env/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de Django
+*.log
+*.pot
+*.pyc
+db.sqlite3  # Base de datos SQLite local (no subas esto a GitHub)
+migrations/  # Migraciones generadas (puedes incluirlas si las controlas manualmente)
+
+# Archivos de configuración sensibles
+.env
+.local
+settings.py  # Si contiene claves secretas, cámbialo por un settings_local.py
+*.secret
+*.key
+
+# Archivos de desarrollo
+*.DS_Store  # macOS
+Thumbs.db   # Windows
+*.bak
+*.swp
+*.swo
+
+# Archivos de dependencias instaladas
+site-packages/
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Carpetas de medios subidos localmente
+media/
+staticfiles/
+
+# Otros
+*.bak
+*.gho
+*.orig
+*.tmps
